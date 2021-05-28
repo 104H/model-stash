@@ -143,5 +143,8 @@ df = pd.DataFrame.from_dict(data)
 #df['synthetic_percentage'] = df.synthetic_size.astype(int) / ( df.real_size.astype(int) + df.synthetic_size.astype(int) )
 
 df = df[ ["foldername", "nir", "checkpoint", "best_pred", "accuracy", "accuracy_class", "accuracy_pixel", "mIoU", "fwIoU", "train_size", "val_size", "test_size", "datset", "epoch", 'Weeds_as_Soil', 'Weeds_as_Crop', 'Weeds_as_Weeds', 'Crops_as_Soil', 'Crops_as_Crop', 'Crops_as_Weeds', 'Soil_as_Soil', 'Soil_as_Crop', 'Soil_as_Weeds'] ]
-df.to_csv("trainingresults.md", sep="|")
+
+df = pd.concat( [ pd.DataFrame( [['---']*len(df.columns)], columns=df.columns ), df ] )
+
+df.to_csv("trainingresults.md", sep="|", index=False)
 
