@@ -1,0 +1,63 @@
+2021-04-23 07:45:48.342230
+Found 7820 train images
+Found 977 valid images
+Using poly LR Scheduler!
+Namespace(backbone='resnet', base_size=1296, batch_size=6, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=7, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=False, loss_type='ce', lr=0.007, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=6, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 7
+
+=>Epoches 0, learning rate = 0.0070,                 previous best = 0.0000
+[Epoch: 0, numImages:  7820]
+Loss: 4.906
+Validation:
+[Epoch: 0, numImages:   977]
+Acc:0.9850641954905409, Acc_class:0.6862203659368357, mIoU:0.5473072538510418, fwIoU: 0.9763842890843427
+Loss: 2.119
+
+=>Epoches 1, learning rate = 0.0061,                 previous best = 0.5473
+[Epoch: 1, numImages:  7820]
+Loss: 3.149
+Validation:
+[Epoch: 1, numImages:   977]
+Acc:0.9912598009756005, Acc_class:0.8737586758789416, mIoU:0.7124638010540031, fwIoU: 0.9853792822501745
+Loss: 1.180
+
+=>Epoches 2, learning rate = 0.0052,                 previous best = 0.7125
+[Epoch: 2, numImages:  7820]
+Loss: 3.110
+Validation:
+[Epoch: 2, numImages:   977]
+Acc:0.9939112606295507, Acc_class:0.8470535875206663, mIoU:0.7501921822189733, fwIoU: 0.9891282531350636
+Loss: 0.710
+
+=>Epoches 3, learning rate = 0.0042,                 previous best = 0.7502
+[Epoch: 3, numImages:  7820]
+Loss: 2.930
+Validation:
+[Epoch: 3, numImages:   977]
+Acc:0.994068796458509, Acc_class:0.8673570618578909, mIoU:0.7482049491415315, fwIoU: 0.9897732995598693
+Loss: 0.617
+
+=>Epoches 4, learning rate = 0.0033,                 previous best = 0.7502
+[Epoch: 4, numImages:  7820]
+Loss: 2.665
+Validation:
+[Epoch: 4, numImages:   977]
+Acc:0.9944777945519112, Acc_class:0.8778202677436977, mIoU:0.7621825319604367, fwIoU: 0.9903826753403655
+Loss: 0.569
+
+=>Epoches 5, learning rate = 0.0023,                 previous best = 0.7622
+[Epoch: 5, numImages:  7820]
+Loss: 2.878
+Validation:
+[Epoch: 5, numImages:   977]
+Acc:0.9925919111883899, Acc_class:0.854068769008329, mIoU:0.6947779511896908, fwIoU: 0.9885164512686128
+Loss: 0.595
+
+=>Epoches 6, learning rate = 0.0012,                 previous best = 0.7622
+[Epoch: 6, numImages:  7820]
+Loss: 2.683
+Validation:
+[Epoch: 6, numImages:   977]
+Acc:0.9932826924775422, Acc_class:0.8546046441153322, mIoU:0.71176612340181, fwIoU: 0.9891949981721462
+Loss: 0.565

@@ -1,0 +1,207 @@
+2021-05-12 13:22:25.637221
+Found 7820 train images
+Found 977 valid images
+Using poly LR Scheduler!
+Namespace(backbone='resnetuntrained', base_size=1296, batch_size=6, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=25, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=False, loss_type='ce', lr=0.007, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=6, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 25
+
+=>Epoches 0, learning rate = 0.0070,                 previous best = 0.0000
+[Epoch: 0, numImages:  7820]
+Loss: 6.680
+Validation:
+[Epoch: 0, numImages:   977]
+Acc:0.9816503254309853, Acc_class:0.6591968628725872, mIoU:0.5048637019152294, fwIoU: 0.9716173474473536
+Loss: 1.927
+
+=>Epoches 1, learning rate = 0.0067,                 previous best = 0.5049
+[Epoch: 1, numImages:  7820]
+Loss: 4.215
+Validation:
+[Epoch: 1, numImages:   977]
+Acc:0.9911195141628483, Acc_class:0.6561332227068908, mIoU:0.5698631003086345, fwIoU: 0.9843171479087148
+Loss: 0.953
+
+=>Epoches 2, learning rate = 0.0065,                 previous best = 0.5699
+[Epoch: 2, numImages:  7820]
+Loss: 3.862
+Validation:
+[Epoch: 2, numImages:   977]
+Acc:0.9928551191188861, Acc_class:0.6468346619744236, mIoU:0.5885986148027204, fwIoU: 0.9867604330039871
+Loss: 0.815
+
+=>Epoches 3, learning rate = 0.0062,                 previous best = 0.5886
+[Epoch: 3, numImages:  7820]
+Loss: 3.840
+Validation:
+[Epoch: 3, numImages:   977]
+Acc:0.9921767602328369, Acc_class:0.6556916630812085, mIoU:0.5796185740577374, fwIoU: 0.9859408237270392
+Loss: 0.685
+
+=>Epoches 4, learning rate = 0.0060,                 previous best = 0.5886
+[Epoch: 4, numImages:  7820]
+Loss: 3.650
+Validation:
+[Epoch: 4, numImages:   977]
+Acc:0.992668596386256, Acc_class:0.6564339557687345, mIoU:0.5834267046560319, fwIoU: 0.986774991340862
+Loss: 0.633
+
+=>Epoches 5, learning rate = 0.0057,                 previous best = 0.5886
+[Epoch: 5, numImages:  7820]
+Loss: 3.706
+Validation:
+[Epoch: 5, numImages:   977]
+Acc:0.9926579358330607, Acc_class:0.6576944122492624, mIoU:0.5835529618325374, fwIoU: 0.9867731490336347
+Loss: 0.657
+
+=>Epoches 6, learning rate = 0.0055,                 previous best = 0.5886
+[Epoch: 6, numImages:  7820]
+Loss: 3.800
+Validation:
+[Epoch: 6, numImages:   977]
+Acc:0.9930492959809174, Acc_class:0.6564515709155699, mIoU:0.5888290954926498, fwIoU: 0.9873174514693656
+Loss: 0.640
+
+=>Epoches 7, learning rate = 0.0052,                 previous best = 0.5888
+[Epoch: 7, numImages:  7820]
+Loss: 3.702
+Validation:
+[Epoch: 7, numImages:   977]
+Acc:0.9936611479499148, Acc_class:0.650045308864016, mIoU:0.5931566076273619, fwIoU: 0.9882760073392478
+Loss: 0.658
+
+=>Epoches 8, learning rate = 0.0049,                 previous best = 0.5932
+[Epoch: 8, numImages:  7820]
+Loss: 3.845
+Validation:
+[Epoch: 8, numImages:   977]
+Acc:0.9937218675983951, Acc_class:0.6545871061560186, mIoU:0.5942495884896258, fwIoU: 0.9884370868774547
+Loss: 0.575
+
+=>Epoches 9, learning rate = 0.0047,                 previous best = 0.5942
+[Epoch: 9, numImages:  7820]
+Loss: 3.465
+Validation:
+[Epoch: 9, numImages:   977]
+Acc:0.9938990210232371, Acc_class:0.653858627520714, mIoU:0.5972039714505494, fwIoU: 0.9886822399732773
+Loss: 0.552
+
+=>Epoches 10, learning rate = 0.0044,                 previous best = 0.5972
+[Epoch: 10, numImages:  7820]
+Loss: 3.295
+Validation:
+[Epoch: 10, numImages:   977]
+Acc:0.9941035784093392, Acc_class:0.6483838153338574, mIoU:0.5985456222690063, fwIoU: 0.9889657335019659
+Loss: 0.548
+
+=>Epoches 11, learning rate = 0.0042,                 previous best = 0.5985
+[Epoch: 11, numImages:  7820]
+Loss: 3.497
+Validation:
+[Epoch: 11, numImages:   977]
+Acc:0.9937712732923899, Acc_class:0.6573667819408985, mIoU:0.5957401942700083, fwIoU: 0.9885658089395303
+Loss: 0.579
+
+=>Epoches 12, learning rate = 0.0039,                 previous best = 0.5985
+[Epoch: 12, numImages:  7820]
+Loss: 3.605
+Validation:
+[Epoch: 12, numImages:   977]
+Acc:0.9940426331818418, Acc_class:0.6516351790745688, mIoU:0.5967351799158684, fwIoU: 0.9889504497490682
+Loss: 0.548
+
+=>Epoches 13, learning rate = 0.0036,                 previous best = 0.5985
+[Epoch: 13, numImages:  7820]
+Loss: 3.194
+Validation:
+[Epoch: 13, numImages:   977]
+Acc:0.9941874237963453, Acc_class:0.6507874239963624, mIoU:0.6034770237603384, fwIoU: 0.9890489973163508
+Loss: 0.560
+
+=>Epoches 14, learning rate = 0.0033,                 previous best = 0.6035
+[Epoch: 14, numImages:  7820]
+Loss: 3.129
+Validation:
+[Epoch: 14, numImages:   977]
+Acc:0.9937381053983186, Acc_class:0.7013040376257395, mIoU:0.6387989317961703, fwIoU: 0.9887795860697047
+Loss: 0.643
+
+=>Epoches 15, learning rate = 0.0031,                 previous best = 0.6388
+[Epoch: 15, numImages:  7820]
+Loss: 3.335
+Validation:
+[Epoch: 15, numImages:   977]
+Acc:0.9932298914304137, Acc_class:0.6597522161170738, mIoU:0.5898042753131334, fwIoU: 0.9877123549601498
+Loss: 0.594
+
+=>Epoches 16, learning rate = 0.0028,                 previous best = 0.6388
+[Epoch: 16, numImages:  7820]
+Loss: 3.249
+Validation:
+[Epoch: 16, numImages:   977]
+Acc:0.9938550564507017, Acc_class:0.6778607624495793, mIoU:0.6184719054749103, fwIoU: 0.988730969510574
+Loss: 0.552
+
+=>Epoches 17, learning rate = 0.0025,                 previous best = 0.6388
+[Epoch: 17, numImages:  7820]
+Loss: 3.326
+Validation:
+[Epoch: 17, numImages:   977]
+Acc:0.9936632598362282, Acc_class:0.7558812927828719, mIoU:0.6769051594479509, fwIoU: 0.9891316613953122
+Loss: 0.626
+
+=>Epoches 18, learning rate = 0.0022,                 previous best = 0.6769
+[Epoch: 18, numImages:  7820]
+Loss: 3.154
+Validation:
+[Epoch: 18, numImages:   977]
+Acc:0.9934933988365016, Acc_class:0.7439138027742752, mIoU:0.6645416238259491, fwIoU: 0.98900274111996
+Loss: 0.601
+
+=>Epoches 19, learning rate = 0.0019,                 previous best = 0.6769
+[Epoch: 19, numImages:  7820]
+Loss: 3.313
+Validation:
+[Epoch: 19, numImages:   977]
+Acc:0.9940679991533631, Acc_class:0.6572762453489384, mIoU:0.600841316691457, fwIoU: 0.9890059641771838
+Loss: 0.517
+
+=>Epoches 20, learning rate = 0.0016,                 previous best = 0.6769
+[Epoch: 20, numImages:  7820]
+Loss: 3.277
+Validation:
+[Epoch: 20, numImages:   977]
+Acc:0.9942036032568679, Acc_class:0.6842609922318359, mIoU:0.6282119119474673, fwIoU: 0.9893334905315725
+Loss: 0.518
+
+=>Epoches 21, learning rate = 0.0013,                 previous best = 0.6769
+[Epoch: 21, numImages:  7820]
+Loss: 3.255
+Validation:
+[Epoch: 21, numImages:   977]
+Acc:0.9933249379823971, Acc_class:0.7795560364477384, mIoU:0.6777592246901922, fwIoU: 0.9892634466721094
+Loss: 0.621
+
+=>Epoches 22, learning rate = 0.0010,                 previous best = 0.6778
+[Epoch: 22, numImages:  7820]
+Loss: 3.318
+Validation:
+[Epoch: 22, numImages:   977]
+Acc:0.9942518188270838, Acc_class:0.6958502174680979, mIoU:0.6400290903032487, fwIoU: 0.9894439530006703
+Loss: 0.511
+
+=>Epoches 23, learning rate = 0.0007,                 previous best = 0.6778
+[Epoch: 23, numImages:  7820]
+Loss: 3.050
+Validation:
+[Epoch: 23, numImages:   977]
+Acc:0.9947465991756028, Acc_class:0.7219806623784634, mIoU:0.6768046620547049, fwIoU: 0.9902456638030752
+Loss: 0.493
+
+=>Epoches 24, learning rate = 0.0004,                 previous best = 0.6778
+[Epoch: 24, numImages:  7820]
+Loss: 2.992
+Validation:
+[Epoch: 24, numImages:   977]
+Acc:0.9944724467734933, Acc_class:0.7333698955423066, mIoU:0.6757622209123602, fwIoU: 0.989962368581275
+Loss: 0.512

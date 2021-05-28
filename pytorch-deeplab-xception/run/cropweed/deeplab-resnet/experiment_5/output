@@ -1,0 +1,31 @@
+2021-04-23 07:45:31.810056
+Found 7820 train images
+Found 977 valid images
+Using poly LR Scheduler!
+Namespace(backbone='resnet', base_size=1296, batch_size=6, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=3, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=False, loss_type='ce', lr=0.007, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=6, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 3
+
+=>Epoches 0, learning rate = 0.0070,                 previous best = 0.0000
+[Epoch: 0, numImages:  7820]
+Loss: 5.068
+Validation:
+[Epoch: 0, numImages:   977]
+Acc:0.9874004045790783, Acc_class:0.6770133313601776, mIoU:0.5550841197549481, fwIoU: 0.9792995002293514
+Loss: 1.592
+
+=>Epoches 1, learning rate = 0.0049,                 previous best = 0.5551
+[Epoch: 1, numImages:  7820]
+Loss: 3.220
+Validation:
+[Epoch: 1, numImages:   977]
+Acc:0.9899353993423197, Acc_class:0.792657101159448, mIoU:0.6644302978003526, fwIoU: 0.9831042532936323
+Loss: 1.215
+
+=>Epoches 2, learning rate = 0.0026,                 previous best = 0.6644
+[Epoch: 2, numImages:  7820]
+Loss: 2.831
+Validation:
+[Epoch: 2, numImages:   977]
+Acc:0.9901829373097283, Acc_class:0.8466147103030348, mIoU:0.6965573367028807, fwIoU: 0.983516888563186
+Loss: 1.273

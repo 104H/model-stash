@@ -1,0 +1,245 @@
+2021-05-25 06:52:12.939792
+Found 7820 train images
+Found 977 valid images
+2021-05-25 06:56:00.541796
+Found 7820 train images
+Found 977 test images
+2021-05-25 07:03:37.878232
+Found 7820 train images
+Found 977 test images
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) (Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) (Pdb) > /home/robot/hunaid/pytorch-deeplab-xception/inferonnx.py(469)main()
+-> args = parser.parse_args()
+(Pdb) 
+The program finished and will be restarted
+(Pdb) 2021-05-25 07:15:21.655832
+Found 7820 train images
+Found 977 test images
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) (Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) (Pdb) (Pdb) 2021-05-25 07:18:49.412657
+Found 7820 train images
+Found 977 test images
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) (Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 07:20:07.397259
+Found 7820 train images
+Found 977 test images
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 07:20:34.782268
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) (Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 07:26:15.246929
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) (Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 07:29:17.108687
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+2021-05-25 07:32:05.905116
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) (Pdb) 2021-05-25 07:32:26.579981
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) (Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 07:47:19.089560
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 11:30:27.523014
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+2021-05-25 12:03:29.724525
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+2021-05-25 12:09:04.597983
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+(Pdb) Post mortem debugger finished. The inferonnx.py will be restarted
+(Pdb) 2021-05-25 12:10:03.586250
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+[INFO] Processing sample number 1 . . . 
+> /home/robot/hunaid/pytorch-deeplab-xception/inferonnx.py(282)pred_single_image()
+-> img_path = path
+(Pdb) 277  	
+278  	    def pred_single_image(self, path, counter):
+279  	        import pdb; pdb.set_trace()
+280  	
+281  	        #self.model.eval()
+282  ->	        img_path = path
+283  	        lbl_path = os.path.join(os.path.split(os.path.split(path)[0])[0], 'lbl', os.path.split(path)[1])
+284  	        activations = collections.defaultdict(list)
+285  	        def save_activation(name, mod, input, output):
+286  	            activations[name].append(output.cpu())
+287  	
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) 
+The program finished and will be restarted
+(Pdb) 2021-05-25 12:15:26.726951
+Found 7820 train images
+Found 977 test images
+Namespace(backbone='resnet', base_size=1296, batch_size=4, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=10, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=True, loss_type='ce', lr=0.01, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=4, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 10
+[INFO] Found 7820 samples in the given dataset. 
+[INFO] Processing sample number 1 . . . 
+> /home/robot/hunaid/pytorch-deeplab-xception/inferonnx.py(282)pred_single_image()
+-> img_path = path
+(Pdb) --KeyboardInterrupt--
+(Pdb) (Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) --KeyboardInterrupt--
+(Pdb) 
+2021-05-18 05:37:45.208664
+Found 7820 train images
+Found 977 valid images
+Using poly LR Scheduler!
+Namespace(backbone='resnetuntrained', base_size=1296, batch_size=6, checkname='deeplab-resnet', crop_size=513, cuda=False, dataset='cropweed', epochs=25, eval_interval=1, freeze_bn=False, ft=False, gpu_ids='0', infer=False, loss_type='ce', lr=0.07, lr_scheduler='poly', momentum=0.9, nesterov=False, nir=True, no_cuda=False, no_val=False, out_stride=16, resume=None, seed=1, start_epoch=0, sync_bn=False, test_batch_size=6, uniform_scale=False, use_balanced_weights=False, use_sbd=True, weight_decay=0.0005, workers=4)
+Starting Epoch: 0
+Total Epoches: 25
+
+=>Epoches 0, learning rate = 0.0700,                 previous best = 0.0000
+[Epoch: 0, numImages:  7820]
+Loss: 7.097
+Validation:
+[Epoch: 0, numImages:   977]
+Acc:0.9762667382887824, Acc_class:0.3333336528062694, mIoU:0.3254225654153542, fwIoU: 0.9530967442999715
+Loss: 1.943
+
+=>Epoches 1, learning rate = 0.0675,                 previous best = 0.3254
+[Epoch: 1, numImages:  7820]
+Loss: 5.547
+Validation:
+[Epoch: 1, numImages:   977]
+Acc:0.985785912219356, Acc_class:0.6597920966961747, mIoU:0.5268931416016612, fwIoU: 0.977143529907527
+Loss: 1.549
+
+=>Epoches 2, learning rate = 0.0649,                 previous best = 0.5269
+[Epoch: 2, numImages:  7820]
+Loss: 5.315
+Validation:
+[Epoch: 2, numImages:   977]
+Acc:0.9927821831998526, Acc_class:0.642637940580612, mIoU:0.5854325309478643, fwIoU: 0.9866515394262375
+Loss: 0.747
+
+=>Epoches 3, learning rate = 0.0624,                 previous best = 0.5854
+[Epoch: 3, numImages:  7820]
+Loss: 5.612
+Validation:
+[Epoch: 3, numImages:   977]
+Acc:0.9877787978227565, Acc_class:0.6610054837106126, mIoU:0.5417370537880449, fwIoU: 0.9797314231235016
+Loss: 0.957
+
+=>Epoches 4, learning rate = 0.0598,                 previous best = 0.5854
+[Epoch: 4, numImages:  7820]
+Loss: 5.537
+Validation:
+[Epoch: 4, numImages:   977]
+Acc:0.9927002241201429, Acc_class:0.6183355396326226, mIoU:0.5828923637358753, fwIoU: 0.9860981196714104
+Loss: 0.771
+
+=>Epoches 5, learning rate = 0.0573,                 previous best = 0.5854
+[Epoch: 5, numImages:  7820]
+Loss: 5.489
+Validation:
+[Epoch: 5, numImages:   977]
+Acc:0.9927258234492679, Acc_class:0.6475451944875579, mIoU:0.5869213270591725, fwIoU: 0.9865757496060308
+Loss: 0.784
+
+=>Epoches 6, learning rate = 0.0547,                 previous best = 0.5869
+[Epoch: 6, numImages:  7820]
+Loss: 5.660
+Validation:
+[Epoch: 6, numImages:   977]
+Acc:0.42395533180761796, Acc_class:0.4711594581629231, mIoU:0.14916768190897398, fwIoU: 0.40435543162590487
+Loss: 27.092
+
+=>Epoches 7, learning rate = 0.0521,                 previous best = 0.5869
+[Epoch: 7, numImages:  7820]
+Loss: 5.612
+Validation:
+[Epoch: 7, numImages:   977]
+Acc:0.993455746587146, Acc_class:0.6308284716939999, mIoU:0.5923315387664402, fwIoU: 0.9875619965339207
+Loss: 0.710
+
+=>Epoches 8, learning rate = 0.0495,                 previous best = 0.5923
+[Epoch: 8, numImages:  7820]
+Loss: 5.439
+Validation:
+[Epoch: 8, numImages:   977]
+Acc:0.992948221024172, Acc_class:0.6564622333248119, mIoU:0.5847961705754762, fwIoU: 0.9872797068901109
+Loss: 0.717
+
+=>Epoches 9, learning rate = 0.0468,                 previous best = 0.5923
+[Epoch: 9, numImages:  7820]
+Loss: 5.247
+Validation:
+[Epoch: 9, numImages:   977]
+Acc:0.9927189860714797, Acc_class:0.6380279756817943, mIoU:0.5882191364441918, fwIoU: 0.9863402041445294
+Loss: 0.812
+
+=>Epoches 10, learning rate = 0.0442,                 previous best = 0.5923
