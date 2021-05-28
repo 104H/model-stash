@@ -1,0 +1,5 @@
+# ignore all model files, they are too big for the repo
+*.pth
+*.tar
+*.cfg
+*.weights
