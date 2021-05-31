@@ -172,7 +172,7 @@ def test(model, annotations, cfg):
         use_cuda = 0
 
     # do one forward pass first to circumvent cold start
-    throwaway_image = Image.open('data/dog.jpg').convert('RGB').resize((model.width, model.height))
+    throwaway_image = Image.open('throwawayimg.jpg').convert('RGB').resize((model.width, model.height))
     #do_detect(model, throwaway_image, 0.5, 80, 0.4, use_cuda)
     do_detect(model, throwaway_image, 0.5, 0.4, use_cuda)
     boxes_json = []
@@ -223,7 +223,7 @@ def test(model, annotations, cfg):
                 box_json["timing"] = float(finish - start)
                 boxes_json.append(box_json)
                 # print("see box_json: ", box_json)
-                with open(resFile, 'w') as outfile:
+                with open(resFile, 'w+') as outfile:
                     json.dump(boxes_json, outfile, default=myconverter)
         else:
             print("warning: output from model after postprocessing is not a list, ignoring")
@@ -245,12 +245,11 @@ def get_args(**kwargs):
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-f', '--load', dest='load', type=str, default=None,
                         help='Load model from a .pth file')
-    parser.add_argument('-g', '--gpu', metavar='G', type=str, default='-1',
+    parser.add_argument('-g', '--gpu', metavar='G', type=str, default='0',
                         help='GPU', dest='gpu')
-    parser.add_argument('-dir', '--data-dir', type=str, default=None,
+    parser.add_argument('-dir', '--data-dir', type=str, default='/home/robot/datasets/mscoco2017/test2017',
                         help='dataset dir', dest='dataset_dir')
-    parser.add_argument('-gta', '--ground_truth_annotations', type=str, default='instances_val2017.json',
-                        help='ground truth annotations file', dest='gt_annotations_path')
+    parser.add_argument('-gta', '--ground_truth_annotations', type=str, default='/home/robot/datasets/mscoco2017/annotations/image_info_test2017.json', help='ground truth annotations file', dest='gt_annotations_path')
     parser.add_argument('-w', '--weights_file', type=str, default='weights/yolov4.weights',
                         help='weights file to load', dest='weights_file')
     parser.add_argument('-c', '--model_config', type=str, default='cfg/yolov4.cfg',
