@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/anaconda3/etc/profile.d/conda.sh
 
 function contains {
     args=("$@")
@@ -16,16 +17,50 @@ function contains {
 
 datasets=("cropweed" "mscoco2017val")
 models=("detectron2" "yolov4")
+platforms=("pytorch" "onnx" "tensort")
 
-contains $1 ${datasets[@]}
-dataset=$?
+dataset=$1
+model=$2
+platform=$3
 
-contains $2 ${models[@]}
-model=$?
+contains $dataset ${datasets[@]}
+datasetfound=$?
 
-if [ $dataset -eq 0 ] && [ $model -eq 0 ]; then
-    echo "Running your model"
+contains $model ${models[@]}
+modelfound=$?
+
+contains $platform ${platforms[@]}
+platformfound=$?
+
+if [ $datasetfound -eq 0 ] && [ $modelfound -eq 0 ] && [ $platformfound -eq 0 ]; then
+    if [ "$model" == "yolov4" ]; then
+        conda activate pytorch-YOLOv4
+
+        if [ $dataset == "mscoco2017val" ] && [ $platform == "pytorch" ]; then
+            cd pytorch-YOLOv4
+            python3 evaluate_on_coco.py
+        elif [ $dataset == "mscoco2017val" ] && [ $platform == "onnx" ]; then
+            cd pytorch-YOLOv4
+            python3 demo_darknet2onnx.py
+        else
+            echo "Not Implemented"
+        fi
+    if [ "$model" == "detectron2" ]; then
+        conda activate pytorch-deeplabxception-detectron2
+
+        if [ $dataset == "mscoco2017val" ] && [ $platform == "pytorch" ]; then
+            cd pytorch-YOLOv4
+            python3 evaluate_on_coco.py
+        elif [ $dataset == "mscoco2017val" ] && [ $platform == "onnx" ]; then
+            cd pytorch-YOLOv4
+            python3 demo_darknet2onnx.py
+        else
+            echo "Not Implemented"
+        fi
+    else
+        echo "Not Implemented"
+    fi
 else
-    echo -e "Requested dataset or model not available.\nOptions for datasets: ${datasets[@]}\nOptions for models: ${models[@]}"
+    echo -e "Requested dataset, model, or platform not available.\nOptions for datasets: ${datasets[@]}\nOptions for models: ${models[@]}\nOptions for platforms: ${platforms[@]}"
 fi
 
